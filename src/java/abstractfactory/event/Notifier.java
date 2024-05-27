@@ -14,7 +14,7 @@ public abstract class Notifier {
         this.userId = userId;
     }
 
-    public void send() {
-        System.out.println(STR."Send \{eventType} message to userID=\{userId}");
+    public String getMessage() {
+        return STR."{ eventType: \{eventType}, userId: \{userId}";
     }
 }

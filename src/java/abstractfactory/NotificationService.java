@@ -28,6 +28,6 @@ public class NotificationService {
     }
 
     void send(Notifier notifier) {
-        notifier.send();
+        notification.send(notifier);
     }
 }
